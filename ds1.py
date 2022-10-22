@@ -12,12 +12,12 @@ while True:
             print("%.2f" % (x-y))
 
         if s == '*':
-         print("%.2f" % (x*y))
+            print("%.2f" % (x*y))
 
-         if s == '/':
-             if y != 0:
+        if s == '/':
+            if y != 0:
                 print("%.2f" % (x/y))
-             else:
+            else:
                 print("вы делите на ноль")
     else:
         print('неверний знак')
