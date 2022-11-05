@@ -1,11 +1,13 @@
 from cha import Cha
+from berserk import Berserk
+
 import cha
 
 
 
 
-player = Cha(name='Din', damage = 10)
-player2 = Cha(name='Dane', damage = 7)
+player = Berserk(name='Din', damage = 10)
+player2 = Cha(name='Dane', damage = 15)
 print(player)
 print(player2)
 while True:
@@ -14,6 +16,7 @@ while True:
 
     print(player)
     print(player2)
+    print(player.c_a_d())
 
     if player.is_alive() == False:
         break

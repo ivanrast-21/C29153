@@ -1,10 +1,10 @@
 
 class Cha:
     name =''
-    health = 100
+    health = 300
     damage =1
     defens = 0
-    def __init__(self, name='', health = 100, damage=1, defens=0):
+    def __init__(self, name='', health = 300, damage=1, defens=0):
         self.name = name
         self.health = health
         self.damage = damage
